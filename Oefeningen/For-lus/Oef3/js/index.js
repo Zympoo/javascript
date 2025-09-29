@@ -6,6 +6,6 @@ for(let i = 1; i <= vraag / 2; i++){
     console.log(string)
 }
 for(let i = vraag / 2; i >= 1; i--){
-    string -= "*"
+    string.trimEnd(i);
     console.log(string)
 }
